@@ -17,3 +17,28 @@ h1{
     color: red;
     text-shadow: 1px 1px 1px black;
 }
+footer{
+    padding: 0;
+    background: rgba(49, 49, 210, 0.123);
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.master{
+    display: flex;
+    flex-flow: column wrap;
+    padding: 25px;
+    justify-content: center;
+    align-items: center;
+}
+
+.master p{
+    color: white;
+}
+
+.header-item{
+    text-decoration: none;
+    padding: 5px;
+}
